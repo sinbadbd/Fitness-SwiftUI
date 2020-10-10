@@ -11,12 +11,30 @@ struct LandingView: View {
     var body: some View {
         GeometryReader { proxy in
             VStack{
-                Spacer().frame( height: proxy.size.height * 0.25)
+                Spacer().frame( height: proxy.size.height * 0.18)
                 
                 Text("Increment")
                     .font(.system(size: 64))
                     .foregroundColor(.white)
                 Spacer()
+                
+                Button(action: {}) {
+                    HStack{
+                        Spacer()
+                        Image(systemName: "plus.circle")
+                            .font(.system(size: 24))
+                            .foregroundColor(.white)
+                        Text("Create a Challange")
+                            .font(.system(size: 24))
+                            .foregroundColor(.white)
+                        Spacer()
+                    }
+                    
+                }
+//                .padding(.horizontal, 15)
+                .padding([.bottom, .horizontal],20)
+                
+                .buttonStyle(PrimaryButtonStyle())
             }
             .frame(
                 maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,
@@ -25,7 +43,9 @@ struct LandingView: View {
             .background(
                 Image("pullup")
                     .resizable()
-                    .aspectRatio(contentMode:   .fill)
+                    .aspectRatio(
+                        contentMode: .fill
+                    ).overlay(Color.black.opacity(0.6))
             ).edgesIgnoringSafeArea(.all)
         }
         
