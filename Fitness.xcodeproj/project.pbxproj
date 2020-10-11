@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6E0FB225336AE30045C360 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E0FB125336AE30045C360 /* CreateView.swift */; };
+		1D6E0FB52533799E0045C360 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E0FB42533799E0045C360 /* DropdownView.swift */; };
 		1DD1712F25323CA40040B2B8 /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1712E25323CA40040B2B8 /* FitnessApp.swift */; };
 		1DD1713125323CA40040B2B8 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1713025323CA40040B2B8 /* LandingView.swift */; };
 		1DD1713325323CA50040B2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1713225323CA50040B2B8 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6E0FB125336AE30045C360 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		1D6E0FB42533799E0045C360 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
 		1DD1712B25323CA40040B2B8 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD1712E25323CA40040B2B8 /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
 		1DD1713025323CA40040B2B8 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				1DD1713425323CA50040B2B8 /* Preview Content */,
 				1DD1713F2532425D0040B2B8 /* PrimaryButtonStyle.swift */,
 				1DD17142253244AC0040B2B8 /* Color+Extension.swift */,
+				1D6E0FB125336AE30045C360 /* CreateView.swift */,
+				1D6E0FB42533799E0045C360 /* DropdownView.swift */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				1DD1713125323CA40040B2B8 /* LandingView.swift in Sources */,
 				1DD1712F25323CA40040B2B8 /* FitnessApp.swift in Sources */,
 				1DD17143253244AC0040B2B8 /* Color+Extension.swift in Sources */,
+				1D6E0FB225336AE30045C360 /* CreateView.swift in Sources */,
+				1D6E0FB52533799E0045C360 /* DropdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
