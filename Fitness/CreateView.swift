@@ -8,12 +8,28 @@
 import SwiftUI
 
 struct CreateView: View {
+    @State private var isActive = false
+    
     var body: some View {
-        DropdownView()
-        DropdownView()
-        DropdownView()
-        DropdownView()
-        Spacer()
+
+        ScrollView{
+            VStack{
+                DropdownView()
+                DropdownView()
+                DropdownView()
+                DropdownView()
+                Spacer()
+                
+                NavigationLink( destination: RemainderView(), isActive: $isActive){
+                    Button(action: {
+                        isActive = true
+                    }) {
+                        Text("Next")
+                    }
+                }
+            }
+        }
+        
     }
 }
 

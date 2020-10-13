@@ -22,6 +22,7 @@ struct DropdownView: View {
                 }
             }.buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
         }.navigationTitle("Create")
+        .navigationBarBackButtonHidden(true)
         .padding()
     }
 }
