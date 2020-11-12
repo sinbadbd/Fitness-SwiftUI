@@ -18,6 +18,7 @@ struct DropdownView: View {
                 HStack{
                     Text("Pushup")
                     Spacer()
+                    
                     Image(systemName: "arrowtriangle.down.circle.fill")
                 }
             }.buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
