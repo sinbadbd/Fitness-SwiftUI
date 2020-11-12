@@ -19,7 +19,7 @@ struct DropdownView: View {
                     Text("Pushup")
                     Spacer()
                     
-                    Image(systemName: "arrowtriangle.down.circle.fill")
+//                    Image(systemName: "arrowtriangle.down.circle.fill")
                 }
             }.buttonStyle(PrimaryButtonStyle(fillColor: .primaryButton))
         }.navigationTitle("Create")
